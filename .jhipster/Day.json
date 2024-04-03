@@ -1,0 +1,29 @@
+{
+  "annotations": {
+    "changelogDate": "20240403192615"
+  },
+  "clientRootFolder": "calendarprincipal",
+  "databaseType": "sql",
+  "dto": "mapstruct",
+  "entityTableName": "day",
+  "fields": [
+    {
+      "fieldName": "date",
+      "fieldType": "String",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "dayOfWeek",
+      "fieldType": "String",
+      "fieldValidateRules": ["required"]
+    }
+  ],
+  "jpaMetamodelFiltering": false,
+  "microserviceName": "calendarprincipal",
+  "name": "Day",
+  "pagination": "no",
+  "readOnly": false,
+  "relationships": [],
+  "searchEngine": "no",
+  "service": "serviceImpl"
+}
